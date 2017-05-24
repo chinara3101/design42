@@ -4,19 +4,117 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Document</title>
-	<link href="https://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet">	
-	<link rel="stylesheet" href="font/fonts.css">
-	<link rel="stylesheet" href="vendor/slick/slick.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">	
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-	<div class="block">
-		<input type="text" placeholder="ваше имя">
-		
+<div class="container head-container">	
+	<header class='header container__header clearfix' >		
+		<h1 class="site_name"><a href="#" class="header_logo">Site name</a></h1>
+		<div class="menu-btn menu-btn--not-active header__menu-btn" id="menu-btn"><span class="menu-btn__inner"></span></div>
+		<nav class="menu header__menu">
+	        	<ul class="menu__list">
+	         		<li class="menu__point"><a class="menu__link" href="#">Home </a></li>
+	         		<li class="menu__point"><a class="menu__link" href="#">About</a></li>
+	         		<li class="menu__point"><a class="menu__link" href="#"> Work  </a></li>
+	         		<li class="menu__point"><a class="menu__link" href="#">Contact</a></li>
+	        	</ul>
+	      	</nav>    	 
+	</header>
+</div><!-- container -->
+<main>
+	<div class="banner_block">
+		<div class="container">
+			<div class="banner_info banner_block__banner_info">
+				<h2 class='title_banner txt_banner__title_banner'>Cras ornare trist lorem ipsum</h2>
+					<p class="txt_banner txt_banner__txt_banner">cusce pellentesque susc</p>
+					<a href="#" class="btn txt_banner__btn">read more</a>
+			</div>			
+		</div>
 	</div>
-</div>
-
+	<div class="services_block">
+		<div class="container">
+			<div class="items_block services-block__items_block ">
+				<div class="item_block  item_block--red  items_block__item_block">
+					<h4 class="title__item item_block__title item  title__item--chat">Vestibulum auctor</h4>
+					<p class="txt-item item_block__title item">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat</p>
+				</div>				<!-- item_block -->
+				<div class="item_block item_block--yellow items_block__item_block">
+					<h4 class="title__item item_block__title item title__item--pensil">Integer vitae lib</h4>
+					<p class="txt-item item_block__title item">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat</p>
+				</div>				<!-- item_block -->
+				<div class="item_block item_block--sea-green items_block__item_block">
+					<h4 class="title__item item_block__title item title__item--crown">tempor interdum</h4>
+					<p class="txt-item item_block__title item">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat</p>
+				</div>				<!-- item_block -->
+				<div class="item_block item_block--purple items_block__item_block">
+					<h4 class="title__item item_block__title item title__item--user">felis quis tortor</h4>
+					<p class="txt-item item_block__title item">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat</p>
+				</div>				<!-- item_block -->
+			</div>
+		</div>
+	</div>
+	<div class="content_block">
+		<div class="container">
+			<h3 class='title_content content_block__title_content'>tempor interdum</h3>
+			<p class="subtitle_content content_block__subtitle_content">Integer vitae libero ac risus egestas placerat</p>
+			<div class="items_content">
+				<div class="item_content item_content--red items_content__item_content">
+					<div class="photo item_content__photo"><img class="face photo__face" src="upload/item-content-face1.jpg" alt="" width="180" height="180"></div>
+					<p class="txt_item_content  ">Cing ornare risus. Morbi est est, binto sinlandit sit amet, sagittis vel, euismod vel, velit. Pellentesque  egestas sem. Suspendisse commodo ullamcorper</p>
+					<a href="#" class="btn item_content__btn  btn--red">read me</a>
+				</div>
+				<div class="item_content item_content--yellow items_content__item_content">
+					<div class="photo item_content__photo"><img class="face photo__face" src="upload/item-content-face2.jpg" alt="" width="181" height="179"></div>
+					<p class="txt_item_content ">Joren ornare risus. Morbi est est, binto sinlandit sit amet, sagittis vel, euismod vel, velit. Pellentesque  egestas sem. Suspendisse commodo ullamcorper</p>
+					<a href="#" class="btn item_content__btn  btn--yellow">read me</a>
+				</div>
+				<div class="item_content item_content--sea-green items_content__item_content">
+					<div class="photo item_content__photo"><img class="face photo__face" src="upload/item-content-face3.jpg" alt="" width="181" height="181"></div>
+					<p class="txt_item_content  ">Lorem ornare risus. Morbi est est, binto sinlandit sit amet, sagittis vel, euismod vel, velit. Pellentesque  egestas sem. Suspendisse commodo ullamcorper</p>
+					<a href="#" class="btn item_content__btn  btn--sea-green">read me</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="contact_block">
+		<div class="container">
+			<h3 class='title_content contact_block__title_content'>connnect with us</h3>
+			<p class="subtitle_content contact_block__subtitle_content">Vivamus vestibulum nulla nec ante</p>
+			<div class="form_block">
+				<form action="#">
+			 		<div class="form form--registration clearfix">
+	   			<div class="form__row form-row--flleft">
+				    <input id="first_name" type="text" class="form__field form__field--w100 ">
+					</div>
+					<div class="form__row form-row--flright ">
+				    <input id="email" type="text" class="form__field form__field--w100 " >
+					</div>
+					<div class="form__row form__row--big ">
+				    <textarea name="question" id="question" cols="30" rows="10" class="form__field form__field--w200"></textarea>
+				 	</div>
+			   	<button class="btn form__btn btn--green">submit</button>
+				</form>	
+			</div>		
+		</div>
+	</div>
+</main>
+<footer class="footer">
+	<div class="container">
+		<div class="sotial">
+			<span class="email">info@sitename.com</span>
+			
+			<a href="#" class=" icon ic--fb"></a>
+			<a href="#" class="icon ic--tw"></a>
+			
+			<span class="phone">(000) 777 777 7777</span>
+		</div>
+		<p class="txt-footer">Copyright(c) website name. <span class="design">Designed by: www.alltemplateneeds.com  </span>  /Images from: www.wallpaperswide.com, www.photorack.net</p>
+	</div>
+</footer>
+                         
+<script src='vendor/jquery-1.12.4.min.js'></script>
+<script src="js/core.js"></script>
 	
 </body>
 </html>

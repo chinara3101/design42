@@ -1,0 +1,67 @@
+.contact_block
+	text-align: center
+	color: #fff
+.contact_block__title_content
+	position: relative
+	padding: 96px 0 9px 0
+	margin: 0 0 0 0
+.contact_block__title_content::before
+	content: ''
+	width: 100px
+	height: 100px
+	border-radius: 50%	
+	background: #fff url(../img/ic-contact.png) 50% 50% no-repeat
+	+position(-34px,auto,auto,50%)
+	margin: 0 0 0 -50px
+
+.form_block
+	width: 61%
+	margin: 0 auto
+	text-align: center	
+	+sm
+		width: 90%
+
+.form	
+	max-width: 570px
+	margin: 0 auto
+	+mobile
+		max-width: 290px
+.form__row
+	display: block
+	margin: 0 0 30px 0
+	width: 270px
+	+tablet
+		width: 47%
+		+mobile
+			width: 100%
+			margin: 0 0 20px 0
+.form__row--big
+	width: 570px
+	+tablet
+		width: 100%	
+.form-row--flright
+	float: right	
+	margin: 0 0 30px 30px
+	+mobile
+		float: left			
+		margin: 0 0 20px
+.form-row--flleft		
+	float: left
+	margin: 0 0 30px 0
+	
+.form__field
+	background: $color_br
+	padding: 0 5px
+	border: 1px solid $color_border_form
+.form__field--w100
+	height: 50px
+	width: 100%	
+.form__field--w200
+	width: 100%
+	height: 123px
+	resize: none	
+.form__btn
+	margin: 0 0 20px 0
+	padding: 0 21px 0 21px
+
+
